@@ -7,7 +7,7 @@ import QuizMode from "@/components/QuizMode";
 import StudyGuide from "@/components/StudyGuide";
 import { ElementData } from "@/data/elements";
 import { motion } from "framer-motion";
-import { Atom, BookOpen, BrainCircuit } from "lucide-react";
+import { Atom, BookOpen, BrainCircuit, GraduationCap } from "lucide-react";
 
 export default function Home() {
   const [selectedElement, setSelectedElement] = useState<ElementData | null>(null);

@@ -1,10 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export', // Biar jadi file statis (HTML/CSS/JS)
-  basePath: '/periodik-table', // Sesuaikan sama nama repo lo
+  output: 'export',
+  basePath: '/periodik-table',
+  trailingSlash: true, // Nambahin garis miring di akhir URL biar path-nya konsisten di GitHub Pages
   images: {
-    unoptimized: true, // GitHub Pages nggak dukung optimasi gambar bawaan Next.js
+    unoptimized: true,
   },
 };
 

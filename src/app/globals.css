@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  
+  /* Element Category Colors */
+  --alkali-metal: #ef4444;
+  --alkaline-earth-metal: #f97316;
+  --transition-metal: #f59e0b;
+  --post-transition-metal: #10b981;
+  --metalloid: #06b6d4;
+  --diatomic-nonmetal: #3b82f6;
+  --polyatomic-nonmetal: #6366f1;
+  --noble-gas: #a855f7;
+  --lanthanide: #ec4899;
+  --actinide: #f43f5e;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Glassmorphism Utility */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Element Colors */
+.bg-alkali-metal { background-color: var(--alkali-metal); }
+.bg-alkaline-earth-metal { background-color: var(--alkaline-earth-metal); }
+.bg-transition-metal { background-color: var(--transition-metal); }
+.bg-post-transition-metal { background-color: var(--post-transition-metal); }
+.bg-metalloid { background-color: var(--metalloid); }
+.bg-diatomic-nonmetal { background-color: var(--diatomic-nonmetal); }
+.bg-polyatomic-nonmetal { background-color: var(--polyatomic-nonmetal); }
+.bg-noble-gas { background-color: var(--noble-gas); }
+.bg-lanthanide { background-color: var(--lanthanide); }
+.bg-actinide { background-color: var(--actinide); }
+
+.text-alkali-metal { color: var(--alkali-metal); }
+.text-alkaline-earth-metal { color: var(--alkaline-earth-metal); }
+.text-transition-metal { color: var(--transition-metal); }
+.text-post-transition-metal { color: var(--post-transition-metal); }
+.text-metalloid { color: var(--metalloid); }
+.text-diatomic-nonmetal { color: var(--diatomic-nonmetal); }
+.text-polyatomic-nonmetal { color: var(--polyatomic-nonmetal); }
+.text-noble-gas { color: var(--noble-gas); }
+.text-lanthanide { color: var(--lanthanide); }
+.text-actinide { color: var(--actinide); }
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s infinite ease-in-out;
+}

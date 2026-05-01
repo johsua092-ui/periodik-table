@@ -1,11 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { GraduationCap, Zap, BookOpen, PenTool, CheckCircle, Flame, Star, LayoutGrid, Info } from "lucide-react";
+import { GraduationCap, Zap, BookOpen, PenTool, CheckCircle, Flame, Star, LayoutGrid, Info, Layers } from "lucide-react";
 
 /**
- * Update Besar: Nambahin penjelasan struktur tabel, cara misahin catatan, 
- * dan penjelasan Bohr Model yang super simpel.
+ * Update: Hapus semua tanda ** dan nambahin panduan pemisahan data per-blok.
  */
 
 export default function StudyGuide() {
@@ -21,7 +20,7 @@ export default function StudyGuide() {
           PANDUAN <span className="text-blue-500">SEPUH KIMIA</span>
         </h2>
         <p className="text-zinc-500 text-sm max-w-xl mx-auto font-medium leading-relaxed">
-          Nggak perlu hafal mati, yang penting lo tau "logika" di balik tabelnya bray. Simak nih!
+          Nggak perlu hafal mati, yang penting lo tau logika di balik tabelnya bray. Simak nih!
         </p>
       </section>
 
@@ -35,13 +34,13 @@ export default function StudyGuide() {
           <div className="p-6 glass rounded-2xl border border-white/5 space-y-3">
             <h4 className="font-bold text-blue-400 uppercase tracking-widest text-xs">Kolom (Golongan) = Geng Sifat</h4>
             <p className="text-zinc-400 text-sm leading-relaxed">
-              Unsur yang satu kolom ke bawah itu satu golongan. Mereka itu **"se-geng"**, punya jumlah elektron di kulit luar yang sama. Makanya sifat kimianya mirip banget!
+              Unsur yang satu kolom ke bawah itu satu golongan. Mereka itu se-geng, punya jumlah elektron di kulit luar yang sama. Makanya sifat kimianya mirip banget!
             </p>
           </div>
           <div className="p-6 glass rounded-2xl border border-white/5 space-y-3">
             <h4 className="font-bold text-green-400 uppercase tracking-widest text-xs">Baris (Periode) = Jumlah Kulit</h4>
             <p className="text-zinc-400 text-sm leading-relaxed">
-              Unsur yang sebaris ke samping itu satu periode. Artinya, mereka punya jumlah **kulit atom** yang sama. Semakin ke bawah, makin gede atomnya!
+              Unsur yang sebaris ke samping itu satu periode. Artinya, mereka punya jumlah kulit atom yang sama. Semakin ke bawah, makin gede atomnya!
             </p>
           </div>
         </div>
@@ -60,91 +59,107 @@ export default function StudyGuide() {
             </div>
             <div className="space-y-4 text-zinc-400 text-sm leading-relaxed">
               <p>
-                Bayangin atom itu kayak **Tata Surya mini**. Inti atom (Nucleus) itu Mataharinya, dan elektron-elektron itu Planetnya.
+                Bayangin atom itu kayak Tata Surya mini. Inti atom (Nucleus) itu Mataharinya, dan elektron-elektron itu Planetnya.
               </p>
               <p>
                 Bohr Model itu gambaran orbit planet-planet (elektron) tersebut. Uniknya, tiap orbit punya kapasitas maksimal. Ada yang isinya 2, 8, 18, dst. 
               </p>
               <p className="bg-white/5 p-4 rounded-xl border border-white/5 italic text-blue-300">
-                "Kalo lo tau konfigurasi elektron di tiap orbitnya, lo udah megang kartu as buat nebak kelakuan si unsur!"
+                Kalo lo tau konfigurasi elektron di tiap orbitnya, lo udah megang kartu as buat nebak kelakuan si unsur!
               </p>
             </div>
-          </div>
-          <div className="w-full md:w-64 aspect-square glass rounded-full flex items-center justify-center border-dashed border-2 border-white/10 animate-pulse">
-            <span className="text-[10px] font-bold text-zinc-600 uppercase tracking-widest text-center px-6">
-              Liat di sidebar pas lo klik unsur buat liat animasinya!
-            </span>
           </div>
         </div>
       </section>
 
-      {/* 3. Notebook Mastery: Cara Misahin Catatan */}
-      <section className="space-y-8">
+      {/* 3. Notebook Mastery: Pemisahan Per-Blok */}
+      <section className="space-y-10">
         <div className="flex items-center gap-3">
-          <PenTool className="w-6 h-6 text-purple-500" />
-          <h3 className="text-2xl font-black italic">Seni Misahin Catatan di Buku</h3>
+          <Layers className="w-6 h-6 text-purple-500" />
+          <h3 className="text-2xl font-black italic">Cara Misahin Data Per-Blok</h3>
         </div>
-        
-        <div className="grid md:grid-cols-2 gap-10">
-          <div className="space-y-6">
-            <div className="space-y-2">
-              <h4 className="text-sm font-bold text-white flex items-center gap-2">
-                <CheckCircle className="w-4 h-4 text-green-500" />
-                Data Wajib Tulis:
-              </h4>
-              <ul className="grid grid-cols-2 gap-2 text-[11px] font-bold uppercase tracking-wider text-zinc-500">
-                <li className="bg-white/5 p-2 rounded-lg border border-white/5">Simbol Unsur</li>
-                <li className="bg-white/5 p-2 rounded-lg border border-white/5">Nomor Atom</li>
-                <li className="bg-white/5 p-2 rounded-lg border border-white/5">Konfigurasi</li>
-                <li className="bg-white/5 p-2 rounded-lg border border-white/5">Massa Atom</li>
-                <li className="bg-white/5 p-2 rounded-lg border border-white/5">Wujud Zat</li>
-                <li className="bg-white/5 p-2 rounded-lg border border-white/5">Geng/Golongan</li>
-              </ul>
-            </div>
 
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* Penjelasan Blok */}
+          <div className="space-y-6">
+            <p className="text-sm text-zinc-400 leading-relaxed">
+              Biar buku lo nggak berantakan, bagi catatan lo jadi 4 blok utama sesuai lokasi elektron terakhirnya. Ini standar internasional bray!
+            </p>
             <div className="space-y-4">
-              <h4 className="text-sm font-bold text-white flex items-center gap-2">
-                <Info className="w-4 h-4 text-purple-500" />
-                Tips Misahin Data:
-              </h4>
-              <div className="space-y-3">
-                <div className="p-4 bg-white/5 rounded-2xl border border-white/5 text-xs text-zinc-400 leading-relaxed">
-                  <strong className="text-white">Pisahin Per-Blok:</strong> Gunain header yang jelas buat tiap Golongan. Contoh: <span className="text-blue-400 font-mono">GOLONGAN 1: Logam Alkali</span>. Kasih garis bawah biar nggak kecampur sama golongan lain.
-                </div>
-                <div className="p-4 bg-white/5 rounded-2xl border border-white/5 text-xs text-zinc-400 leading-relaxed">
-                  <strong className="text-white">Kolom Khusus Fungsi:</strong> Buat kolom kecil di paling kanan buat tulis satu fungsi nyata. Misal: <span className="italic text-purple-400">"Buat kabel listrik"</span> atau <span className="italic text-purple-400">"Isi balon"</span>. Ini bantu otak lo bikin koneksi data.
-                </div>
+              <div className="p-4 bg-red-500/5 border-l-4 border-red-500 rounded-r-xl space-y-1">
+                <h5 className="text-red-400 font-bold text-xs uppercase">Blok S (Kiri)</h5>
+                <p className="text-[11px] text-zinc-500">Isinya Logam Alkali & Alkali Tanah. Kelakuannya reaktif abis!</p>
+              </div>
+              <div className="p-4 bg-yellow-500/5 border-l-4 border-yellow-500 rounded-r-xl space-y-1">
+                <h5 className="text-yellow-400 font-bold text-xs uppercase">Blok D (Tengah)</h5>
+                <p className="text-[11px] text-zinc-500">Logam Transisi. Ini geng logam-logam kuat kayak Besi & Emas.</p>
+              </div>
+              <div className="p-4 bg-blue-500/5 border-l-4 border-blue-500 rounded-r-xl space-y-1">
+                <h5 className="text-blue-400 font-bold text-xs uppercase">Blok P (Kanan)</h5>
+                <p className="text-[11px] text-zinc-500">Campuran Logam, Metalloid, sampe Gas Mulia. Blok paling rame!</p>
+              </div>
+              <div className="p-4 bg-pink-500/5 border-l-4 border-pink-500 rounded-r-xl space-y-1">
+                <h5 className="text-pink-400 font-bold text-xs uppercase">Blok F (Bawah)</h5>
+                <p className="text-[11px] text-zinc-500">Lanthanide & Actinide. Geng unsur langka & radioaktif.</p>
               </div>
             </div>
           </div>
 
+          {/* Contoh Layout Buku */}
           <div className="space-y-4">
-            <p className="text-[10px] font-black text-zinc-700 uppercase tracking-[0.3em] text-center">Visual Checklist</p>
-            <div className="bg-zinc-950 p-8 rounded-[2rem] border border-white/5 shadow-2xl space-y-6">
-              <div className="flex justify-between items-center border-b border-white/10 pb-4">
-                <div className="text-4xl font-black italic text-blue-500">Au</div>
-                <div className="text-right">
-                  <div className="text-xs font-bold text-zinc-500 uppercase">Emas</div>
-                  <div className="text-[10px] font-mono text-zinc-700">Atom: 79</div>
+            <p className="text-[10px] font-black text-zinc-700 uppercase tracking-widest text-center">Contoh Layout di Buku Lo</p>
+            <div className="bg-zinc-950 p-6 rounded-3xl border border-white/5 space-y-6">
+              {/* Header Blok */}
+              <div className="px-4 py-2 bg-red-500/20 text-red-400 text-[10px] font-black uppercase tracking-widest rounded-lg w-fit">
+                # SECTION: BLOK S
+              </div>
+              
+              {/* List Unsur dalam Blok */}
+              <div className="space-y-4">
+                <div className="border-l-2 border-white/10 pl-4 space-y-2">
+                  <div className="flex justify-between items-center text-sm">
+                    <span className="font-bold text-white">Hydrogen (H)</span>
+                    <span className="text-zinc-600 font-mono text-[10px]">No: 1</span>
+                  </div>
+                  <p className="text-[10px] text-zinc-500 italic">Catatan: Paling ringan, s-block, 1 elektron terluar.</p>
+                </div>
+                
+                <div className="border-l-2 border-white/10 pl-4 space-y-2">
+                  <div className="flex justify-between items-center text-sm">
+                    <span className="font-bold text-white">Lithium (Li)</span>
+                    <span className="text-zinc-600 font-mono text-[10px]">No: 3</span>
+                  </div>
+                  <p className="text-[10px] text-zinc-500 italic">Catatan: Logam alkali, reaktif, buat batre HP.</p>
                 </div>
               </div>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="space-y-1">
-                  <div className="text-[9px] uppercase text-zinc-600 font-bold">Massa</div>
-                  <div className="text-xs font-mono">196.97 u</div>
-                </div>
-                <div className="space-y-1">
-                  <div className="text-[9px] uppercase text-zinc-600 font-bold">Wujud</div>
-                  <div className="text-xs font-mono">Padat</div>
-                </div>
-              </div>
-              <div className="p-3 bg-blue-500/10 rounded-xl border border-blue-500/20">
-                <p className="text-[10px] text-blue-300 italic font-medium leading-relaxed">
-                  "Catet: Ini logam transisi. Paling stabil, anti-karat, sultan abis!"
+
+              <div className="pt-4 border-t border-white/5">
+                <p className="text-[9px] text-zinc-600 font-medium">
+                  Tips: Pake pembatas warna tiap ganti blok biar nyarinya cepet!
                 </p>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* 4. Notebook Essentials */}
+      <section className="space-y-8">
+        <div className="flex items-center gap-3">
+          <PenTool className="w-6 h-6 text-purple-500" />
+          <h3 className="text-2xl font-black italic">Data Wajib Catat</h3>
+        </div>
+        
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
+          {[
+            "Simbol Unsur", "Nomor Atom", "Konfigurasi", 
+            "Massa Atom", "Wujud Zat", "Golongan"
+          ].map((item, i) => (
+            <div key={i} className="p-3 bg-white/5 rounded-xl border border-white/5 text-center">
+              <CheckCircle className="w-4 h-4 text-green-500 mx-auto mb-2" />
+              <span className="text-[9px] font-bold text-zinc-400 uppercase tracking-tighter">{item}</span>
+            </div>
+          ))}
         </div>
       </section>
 

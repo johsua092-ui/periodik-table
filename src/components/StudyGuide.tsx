@@ -15,7 +15,7 @@ export default function StudyGuide() {
       <section className="text-center space-y-4">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-[10px] font-black uppercase tracking-[0.2em]">
           <GraduationCap className="w-4 h-4" />
-          Akademi Kimia Gen Z
+          Akademi Kimia
         </div>
         <h2 className="text-4xl md:text-6xl font-black italic tracking-tighter leading-tight">
           PANDUAN <span className="text-blue-500">SEPUH KIMIA</span>

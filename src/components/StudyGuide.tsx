@@ -1,46 +1,57 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { GraduationCap, BookOpen, PenTool, CheckCircle, Layers, Scissors, Highlighter, Layout, Pencil, Play } from "lucide-react";
+import { GraduationCap, BookOpen, PenTool, CheckCircle, Layers, Pencil, Play, Flame, Zap, Droplets, Wind, Globe } from "lucide-react";
 import { useState } from "react";
 
 /**
- * Update: Bahasa yang lebih "manusia" & santai.
- * Gue rombak semua teks biar nggak berasa kaku kayak bot.
+ * Update: Nambahin Kamus Unsur Iconic biar user tau "H itu apa", dsb.
  */
 
 export default function StudyGuide() {
   const [animKey, setAnimKey] = useState(0);
 
-  const drawSteps = [
+  const iconicElements = [
     {
-      step: "01",
-      title: "Bikin Fondasi Utama",
-      desc: "Langkah awal bray, lo bikin dulu kotak gede buat blok S (kiri), P (kanan), sama D (tengah). Jangan mikirin isinya dulu, yang penting rangkanya udah berdiri tegak.",
-      color: "border-blue-500"
+      symbol: "H",
+      name: "Hydrogen",
+      icon: <Wind className="w-5 h-5 text-blue-400" />,
+      desc: "Unsur paling pertama dan paling enteng. Dia itu bahan bakar bintang-bintang di langit dan juga air yang lo minum (H2O). OG-nya tabel periodik bray!"
     },
     {
-      step: "02",
-      title: "Sekat-sekat Garis",
-      desc: "Nah, sekarang lo bagi jadi 7 baris. Inget ya, baris pertama cuma ada di ujung-ujung doang. Kalo miring dikit nggak apa-apa, tapi usahain pake penggaris biar kece.",
-      color: "border-emerald-500"
+      symbol: "C",
+      name: "Carbon",
+      icon: <Globe className="w-5 h-5 text-zinc-500" />,
+      desc: "Si paling fleksibel. Tubuh lo, makanan, sampe berlian itu isinya Carbon. Tanpa dia, nggak bakal ada kehidupan di bumi. Bener-bener main character!"
     },
     {
-      step: "03",
-      title: "Slot Bonus (Blok F)",
-      desc: "Dua baris yang sering kelupaan nih. Taruh di paling bawah buku lo. Ini buat geng unsur yang 'spesial' dan langka. Kasih jarak dikit biar nggak sumpek.",
-      color: "border-pink-500"
+      symbol: "O",
+      name: "Oxygen",
+      icon: <Droplets className="w-5 h-5 text-cyan-400" />,
+      desc: "Si penyambung nyawa. Wajib ada buat lo nafas. Dia juga reaktif banget, makanya besi bisa karatan kalo kelamaan main sama dia."
     },
     {
-      step: "04",
-      title: "Final Check & Rapihin",
-      desc: "Udah jadi nih rumahnya! Sekarang lo tinggal isi simbol-simbolnya satu per satu. Pastiin urutannya bener dari atas kiri ke bawah kanan ya bray.",
-      color: "border-yellow-500"
+      symbol: "Au",
+      name: "Gold",
+      icon: <Star className="w-5 h-5 text-yellow-500" />,
+      desc: "Sultan-nya logam. Nggak bisa karatan, berkilau, dan mahal abis. Emas itu simbol kekayaan dari zaman purba sampe sekarang bray."
+    },
+    {
+      symbol: "Fe",
+      name: "Iron",
+      icon: <Layers className="w-5 h-5 text-zinc-400" />,
+      desc: "Si tulang punggung peradaban. Jembatan, gedung, sampe sel darah merah lo butuh Besi. Kuat, tangguh, dan bisa diandelin."
+    },
+    {
+      symbol: "He",
+      name: "Helium",
+      icon: <Zap className="w-5 h-5 text-purple-400" />,
+      desc: "Si gas mulia yang bikin suara lo jadi lucu kalo dihirup dari balon. Dia nggak mau temenan (reaksi) sama siapa-siapa, tipikal introvert tapi kece."
     }
   ];
 
   return (
-    <div className="max-w-4xl mx-auto space-y-20 py-12 px-4">
+    <div className="max-w-4xl mx-auto space-y-24 py-12 px-4">
       {/* Header */}
       <section className="text-center space-y-6">
         <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-[10px] font-black uppercase tracking-[0.3em]">
@@ -50,6 +61,41 @@ export default function StudyGuide() {
         <h2 className="text-4xl md:text-7xl font-black italic tracking-tighter leading-tight">
           PANDUAN <span className="text-blue-500">SALIN BUKU</span>
         </h2>
+      </section>
+
+      {/* KAMUS UNSUR ICONIC (NEW!) */}
+      <section className="space-y-10">
+        <div className="flex items-center gap-3 border-b border-white/5 pb-4">
+          <BookOpen className="w-6 h-6 text-blue-500" />
+          <h3 className="text-2xl font-black italic">Bedah Kilat: Siapa Aja Mereka?</h3>
+        </div>
+        <p className="text-sm text-zinc-500 font-medium">
+          Lo mungkin bingung liat simbol-simbol aneh di tabel. Nih, gue kasih tau peran beberapa "pemeran utama" yang wajib lo kenal:
+        </p>
+        
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {iconicElements.map((el, i) => (
+            <motion.div 
+              key={i}
+              whileHover={{ y: -5 }}
+              className="p-6 glass rounded-[2rem] border border-white/5 space-y-4 hover:bg-white/[0.03] transition-all"
+            >
+              <div className="flex justify-between items-center">
+                <div className="p-3 bg-white/5 rounded-2xl">{el.icon}</div>
+                <span className="text-4xl font-black italic text-zinc-800 opacity-50">{el.symbol}</span>
+              </div>
+              <div>
+                <h4 className="text-lg font-black text-white">{el.name}</h4>
+                <p className="text-[11px] text-zinc-500 leading-relaxed mt-2">{el.desc}</p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+        <div className="p-6 bg-blue-500/5 rounded-[2rem] border border-blue-500/10 text-center">
+           <p className="text-xs text-blue-400 font-bold italic">
+             "Mau tau 112 unsur lainnya? Tinggal klik aja kotaknya di tabel utama bray! Gue udah tulis deskripsi gaul buat semuanya."
+           </p>
+        </div>
       </section>
 
       {/* ANIMASI SKETSA GARIS */}
@@ -69,24 +115,19 @@ export default function StudyGuide() {
 
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="space-y-4">
-            {drawSteps.map((s, i) => (
-              <motion.div 
-                key={`${animKey}-${i}`}
-                initial={{ opacity: 0, x: -10 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: i * 1.5, duration: 0.8 }}
-                className={`p-5 bg-white/[0.01] rounded-2xl border-l-2 ${s.color} space-y-1`}
-              >
-                <div className="flex items-center justify-between">
-                  <h4 className="font-black text-[10px] text-white uppercase tracking-widest">{s.title}</h4>
-                  <span className="text-[9px] font-mono text-zinc-700">Langkah {s.step}</span>
-                </div>
-                <p className="text-[10px] text-zinc-500 leading-relaxed">{s.desc}</p>
-              </motion.div>
+            {[
+              { t: "Fondasi Utama", d: "Bikin kotak S, P, dan D dulu bray. Rangkanya harus kokoh!" },
+              { t: "Sekat Baris", d: "Bagi jadi 7 baris horizontal. Inget, baris 1 cuma ada di ujung." },
+              { t: "Slot Bonus", d: "Baris F di paling bawah buku lo. Unsur spesial nih." },
+              { t: "Final Check", d: "Udah jadi! Tinggal lo isi simbolnya satu per satu." }
+            ].map((s, i) => (
+              <div key={i} className="p-4 bg-white/[0.01] rounded-2xl border-l-2 border-zinc-800 space-y-1">
+                <h4 className="font-bold text-[10px] text-white uppercase tracking-widest">{s.t}</h4>
+                <p className="text-[10px] text-zinc-500 leading-relaxed">{s.d}</p>
+              </div>
             ))}
           </div>
 
-          {/* CANVAS SKETSA GARIS */}
           <div className="relative aspect-square glass rounded-[3rem] border border-white/5 p-12 flex flex-col items-center justify-center overflow-hidden bg-black/60">
             <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:15px_15px] pointer-events-none" />
             <div key={animKey} className="w-full h-full relative flex flex-col justify-center">
@@ -105,32 +146,7 @@ export default function StudyGuide() {
                 <motion.div initial={{ scaleX: 0 }} animate={{ scaleX: 1 }} transition={{ delay: 5.5, duration: 1 }} className="h-4 w-full border-2 border-pink-500/40 rounded-sm origin-left" />
               </motion.div>
             </div>
-            <div className="absolute bottom-6 left-0 right-0 text-center">
-               <p className="text-[9px] font-black text-zinc-800 uppercase tracking-[0.5em]">Tabel Siap Diisi bray!</p>
-            </div>
           </div>
-        </div>
-      </section>
-
-      {/* Info Tambahan - Edisi Tips Santai */}
-      <section className="grid md:grid-cols-2 gap-6">
-        <div className="p-8 glass rounded-[2rem] border border-white/5 space-y-4">
-          <div className="p-3 bg-blue-500/10 w-fit rounded-2xl">
-             <Scissors className="w-6 h-6 text-blue-400" />
-          </div>
-          <h4 className="text-xl font-black italic">Saran Gue: Pake Penggaris!</h4>
-          <p className="text-sm text-zinc-500 leading-relaxed">
-            Serius deh bray, jangan coba-coba narik garis tanpa penggaris kalo nggak mau tabel lo jadi kyk gelombang laut. Mulai dari sisi paling kiri, pelan-pelan aja yang penting presisi.
-          </p>
-        </div>
-        <div className="p-8 glass rounded-[2rem] border border-white/5 space-y-4">
-          <div className="p-3 bg-purple-500/10 w-fit rounded-2xl">
-             <Highlighter className="w-6 h-6 text-purple-400" />
-          </div>
-          <h4 className="text-xl font-black italic">Soal Proporsi Kotak</h4>
-          <p className="text-sm text-zinc-500 leading-relaxed">
-            Inget poin ini bray: Blok D (yang di tengah) itu lebih cebol dibanding Blok S sama P. Jangan lo bikin tinggi-tinggi biar bentuk tabelnya nggak aneh pas diliat guru lo.
-          </p>
         </div>
       </section>
 

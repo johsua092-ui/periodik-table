@@ -5,8 +5,8 @@ import { GraduationCap, BookOpen, PenTool, CheckCircle, Layers, Scissors, Highli
 import { useState } from "react";
 
 /**
- * Update: Sketsa Minimalist (Cuma Garis).
- * Sesuai request, gue ilangin fill warna dan fokus ke "Garis Rangka" biar gampang ditiru di buku.
+ * Update: Bahasa yang lebih "manusia" & santai.
+ * Gue rombak semua teks biar nggak berasa kaku kayak bot.
  */
 
 export default function StudyGuide() {
@@ -15,26 +15,26 @@ export default function StudyGuide() {
   const drawSteps = [
     {
       step: "01",
-      title: "Tarik Garis Utama",
-      desc: "Mulai dari kotak luar S, P, dan D. Cuma garis pinggirnya aja bray.",
+      title: "Bikin Fondasi Utama",
+      desc: "Langkah awal bray, lo bikin dulu kotak gede buat blok S (kiri), P (kanan), sama D (tengah). Jangan mikirin isinya dulu, yang penting rangkanya udah berdiri tegak.",
       color: "border-blue-500"
     },
     {
       step: "02",
-      title: "Sekat Periode",
-      desc: "Bagi barisnya jadi 7. Pastiin presisi biar jumlah kotaknya pas.",
+      title: "Sekat-sekat Garis",
+      desc: "Nah, sekarang lo bagi jadi 7 baris. Inget ya, baris pertama cuma ada di ujung-ujung doang. Kalo miring dikit nggak apa-apa, tapi usahain pake penggaris biar kece.",
       color: "border-emerald-500"
     },
     {
       step: "03",
-      title: "Rangka Blok F",
-      desc: "Dua baris panjang di bawah buat Lanthanide & Actinide.",
+      title: "Slot Bonus (Blok F)",
+      desc: "Dua baris yang sering kelupaan nih. Taruh di paling bawah buku lo. Ini buat geng unsur yang 'spesial' dan langka. Kasih jarak dikit biar nggak sumpek.",
       color: "border-pink-500"
     },
     {
       step: "04",
-      title: "Grid Lengkap",
-      desc: "Sekarang lo punya 'rumah' buat semua unsur. Tinggal isi simbolnya!",
+      title: "Final Check & Rapihin",
+      desc: "Udah jadi nih rumahnya! Sekarang lo tinggal isi simbol-simbolnya satu per satu. Pastiin urutannya bener dari atas kiri ke bawah kanan ya bray.",
       color: "border-yellow-500"
     }
   ];
@@ -52,7 +52,7 @@ export default function StudyGuide() {
         </h2>
       </section>
 
-      {/* ANIMASI SKETSA GARIS (WIREFRAME) */}
+      {/* ANIMASI SKETSA GARIS */}
       <section className="space-y-12">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-white/5 pb-4">
           <div className="flex items-center gap-3">
@@ -79,7 +79,7 @@ export default function StudyGuide() {
               >
                 <div className="flex items-center justify-between">
                   <h4 className="font-black text-[10px] text-white uppercase tracking-widest">{s.title}</h4>
-                  <span className="text-[9px] font-mono text-zinc-700">#{s.step}</span>
+                  <span className="text-[9px] font-mono text-zinc-700">Langkah {s.step}</span>
                 </div>
                 <p className="text-[10px] text-zinc-500 leading-relaxed">{s.desc}</p>
               </motion.div>
@@ -88,87 +88,48 @@ export default function StudyGuide() {
 
           {/* CANVAS SKETSA GARIS */}
           <div className="relative aspect-square glass rounded-[3rem] border border-white/5 p-12 flex flex-col items-center justify-center overflow-hidden bg-black/60">
-            {/* Grid Background Paper Style */}
             <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:15px_15px] pointer-events-none" />
-            
             <div key={animKey} className="w-full h-full relative flex flex-col justify-center">
-              {/* Step 1: Wireframe Blocks */}
               <div className="grid grid-cols-18 gap-1 w-full h-40 items-end">
-                {/* S-Block Line */}
-                <motion.div 
-                  initial={{ pathLength: 0, opacity: 0 }} 
-                  animate={{ pathLength: 1, opacity: 1 }} 
-                  transition={{ delay: 0.5, duration: 1.5 }}
-                  className="col-span-2 border-2 border-blue-500/60 rounded-sm h-full"
-                />
-
-                {/* D-Block Line */}
-                <motion.div 
-                  initial={{ pathLength: 0, opacity: 0 }} 
-                  animate={{ pathLength: 1, opacity: 1 }} 
-                  transition={{ delay: 1.5, duration: 1.5 }}
-                  className="col-span-10 border-2 border-yellow-500/40 rounded-sm h-[60%]"
-                />
-
-                {/* P-Block Line */}
-                <motion.div 
-                  initial={{ pathLength: 0, opacity: 0 }} 
-                  animate={{ pathLength: 1, opacity: 1 }} 
-                  transition={{ delay: 2.5, duration: 1.5 }}
-                  className="col-span-6 border-2 border-emerald-500/60 rounded-sm h-full"
-                />
+                <motion.div initial={{ pathLength: 0, opacity: 0 }} animate={{ pathLength: 1, opacity: 1 }} transition={{ delay: 0.5, duration: 1.5 }} className="col-span-2 border-2 border-blue-500/60 rounded-sm h-full" />
+                <motion.div initial={{ pathLength: 0, opacity: 0 }} animate={{ pathLength: 1, opacity: 1 }} transition={{ delay: 1.5, duration: 1.5 }} className="col-span-10 border-2 border-yellow-500/40 rounded-sm h-[60%]" />
+                <motion.div initial={{ pathLength: 0, opacity: 0 }} animate={{ pathLength: 1, opacity: 1 }} transition={{ delay: 2.5, duration: 1.5 }} className="col-span-6 border-2 border-emerald-500/60 rounded-sm h-full" />
               </div>
-
-              {/* Step 2: Grid Internal Lines */}
               <div className="absolute inset-0 flex flex-col justify-between py-20 px-8 pointer-events-none">
                 {[...Array(7)].map((_, i) => (
-                  <motion.div 
-                    key={i}
-                    initial={{ scaleX: 0, opacity: 0 }}
-                    animate={{ scaleX: 1, opacity: 1 }}
-                    transition={{ delay: 3.5 + (i * 0.15), duration: 0.8 }}
-                    className="h-[1px] bg-white/20 origin-left"
-                  />
+                  <motion.div key={i} initial={{ scaleX: 0, opacity: 0 }} animate={{ scaleX: 1, opacity: 1 }} transition={{ delay: 3.5 + (i * 0.15), duration: 0.8 }} className="h-[1px] bg-white/20 origin-left" />
                 ))}
               </div>
-
-              {/* Step 3: F-Block Wireframe */}
-              <motion.div 
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 5, duration: 1 }}
-                className="mt-6 space-y-1 w-full px-4"
-              >
-                <motion.div 
-                  initial={{ scaleX: 0 }} animate={{ scaleX: 1 }} transition={{ delay: 5.2, duration: 1 }}
-                  className="h-4 w-full border-2 border-pink-500/40 rounded-sm origin-left" 
-                />
-                <motion.div 
-                  initial={{ scaleX: 0 }} animate={{ scaleX: 1 }} transition={{ delay: 5.5, duration: 1 }}
-                  className="h-4 w-full border-2 border-pink-500/40 rounded-sm origin-left" 
-                />
+              <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 5, duration: 1 }} className="mt-6 space-y-1 w-full px-4">
+                <motion.div initial={{ scaleX: 0 }} animate={{ scaleX: 1 }} transition={{ delay: 5.2, duration: 1 }} className="h-4 w-full border-2 border-pink-500/40 rounded-sm origin-left" />
+                <motion.div initial={{ scaleX: 0 }} animate={{ scaleX: 1 }} transition={{ delay: 5.5, duration: 1 }} className="h-4 w-full border-2 border-pink-500/40 rounded-sm origin-left" />
               </motion.div>
             </div>
-
             <div className="absolute bottom-6 left-0 right-0 text-center">
-               <p className="text-[9px] font-black text-zinc-800 uppercase tracking-[0.5em]">Mode Garis Rangka</p>
+               <p className="text-[9px] font-black text-zinc-800 uppercase tracking-[0.5em]">Tabel Siap Diisi bray!</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Info Tambahan */}
+      {/* Info Tambahan - Edisi Tips Santai */}
       <section className="grid md:grid-cols-2 gap-6">
-        <div className="p-8 glass rounded-[2rem] border border-white/5 space-y-3">
-          <h4 className="text-lg font-black italic">Pake Penggaris Ngab!</h4>
-          <p className="text-xs text-zinc-500 leading-relaxed">
-            Biar hasilnya se-keren di layar, pastiin lo pake penggaris pas narik garis rangka utamanya. Mulai dari sisi paling kiri dulu ya.
+        <div className="p-8 glass rounded-[2rem] border border-white/5 space-y-4">
+          <div className="p-3 bg-blue-500/10 w-fit rounded-2xl">
+             <Scissors className="w-6 h-6 text-blue-400" />
+          </div>
+          <h4 className="text-xl font-black italic">Saran Gue: Pake Penggaris!</h4>
+          <p className="text-sm text-zinc-500 leading-relaxed">
+            Serius deh bray, jangan coba-coba narik garis tanpa penggaris kalo nggak mau tabel lo jadi kyk gelombang laut. Mulai dari sisi paling kiri, pelan-pelan aja yang penting presisi.
           </p>
         </div>
-        <div className="p-8 glass rounded-[2rem] border border-white/5 space-y-3">
-          <h4 className="text-lg font-black italic">Proporsi Itu Kunci</h4>
-          <p className="text-xs text-zinc-500 leading-relaxed">
-            Inget, Blok D itu lebih pendek (turun ke bawah) dibanding Blok S sama P. Jangan dibikin sejajar semua ya bray!
+        <div className="p-8 glass rounded-[2rem] border border-white/5 space-y-4">
+          <div className="p-3 bg-purple-500/10 w-fit rounded-2xl">
+             <Highlighter className="w-6 h-6 text-purple-400" />
+          </div>
+          <h4 className="text-xl font-black italic">Soal Proporsi Kotak</h4>
+          <p className="text-sm text-zinc-500 leading-relaxed">
+            Inget poin ini bray: Blok D (yang di tengah) itu lebih cebol dibanding Blok S sama P. Jangan lo bikin tinggi-tinggi biar bentuk tabelnya nggak aneh pas diliat guru lo.
           </p>
         </div>
       </section>

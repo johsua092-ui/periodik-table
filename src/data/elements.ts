@@ -5,7 +5,7 @@ export const elements = [
     "name": "Hydrogen",
     "atomic_mass": 1.008,
     "category": "diatomic nonmetal",
-    "summary": "OG-nya tabel periodik, bray. Unsur paling ringan tapi pondasi semesta banget. Kelakuannya chill tapi bisa meledak kalo nggak diawasin. Definisi small but mighty!",
+    "summary": "Non-logam diatomik yang penting buat kehidupan. Hydrogen (H) Wujudnya padat/gas dengan massa atom 1.008. Dia meleleh di 13.99 K dan mendidih di 20.271 K. Berperan penting di atmosfer dan reaksi kimia dasar. Bener-bener vital!",
     "melt": 13.99,
     "boil": 20.271,
     "shells": [
@@ -21,7 +21,7 @@ export const elements = [
     "name": "Helium",
     "atomic_mass": 4.0026022,
     "category": "noble gas",
-    "summary": "Si paling santai dan anti-reaksi. Gas mulia yang bikin suara lo jadi lucu tapi tetep high-class. Dia main character di balon pesta lo!",
+    "summary": "Si gas mulia yang paling chill dan anti-reaksi. Helium (He) ini Wujudnya padat/gas dengan massa atom 4.003. Dia meleleh di 0.95 K dan mendidih di 4.222 K. Biasanya dipake buat lampu neon atau pengisi balon biar estetik. Main character yang introvert!",
     "melt": 0.95,
     "boil": 4.222,
     "shells": [
@@ -37,7 +37,7 @@ export const elements = [
     "name": "Lithium",
     "atomic_mass": 6.94,
     "category": "alkali metal",
-    "summary": "Baterai HP lo bisa awet ya gara-gara dia. Kecil, ringan, tapi energinya nggak abis-abis. Definisi support system yang sebenernya.",
+    "summary": "Si paling reaktif! Lithium (Li) ini logam alkali yang enerjik abis. Wujudnya padat/gas dengan massa atom 6.940. Dia meleleh di 453.65 K dan mendidih di 1603 K. Hati-hati, dia nggak bisa anteng kalo ketemu air. Definisi gaskeun terus!",
     "melt": 453.65,
     "boil": 1603,
     "shells": [
@@ -54,7 +54,7 @@ export const elements = [
     "name": "Beryllium",
     "atomic_mass": 9.01218315,
     "category": "alkaline earth metal",
-    "summary": "Ini Beryllium (Be), salah satu anggota geng alkaline earth metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Beryllium (Be), anggota geng alkaline earth metal. Wujudnya padat/gas dengan massa atom 9.012. Dia meleleh di 1560 K dan mendidih di 2742 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 1560,
     "boil": 2742,
     "shells": [
@@ -71,7 +71,7 @@ export const elements = [
     "name": "Boron",
     "atomic_mass": 10.81,
     "category": "metalloid",
-    "summary": "Ini Boron (B), salah satu anggota geng metalloid. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Boron (B), anggota geng metalloid. Wujudnya padat/gas dengan massa atom 10.810. Dia meleleh di 2349 K dan mendidih di 4200 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 2349,
     "boil": 4200,
     "shells": [
@@ -88,7 +88,7 @@ export const elements = [
     "name": "Carbon",
     "atomic_mass": 12.011,
     "category": "polyatomic nonmetal",
-    "summary": "Social butterfly-nya kimia. Bisa temenan sama siapa aja dan jadi apa aja, dari pensil sampe berlian. Fleksibel banget, parah!",
+    "summary": "Kenalin nih Carbon (C), anggota geng polyatomic nonmetal. Wujudnya padat/gas dengan massa atom 12.011. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": null,
     "boil": null,
     "shells": [
@@ -105,7 +105,7 @@ export const elements = [
     "name": "Nitrogen",
     "atomic_mass": 14.007,
     "category": "diatomic nonmetal",
-    "summary": "Dingin tapi bukan cuek. Penjaga suhu yang paling bisa diandelin. Kalo nggak ada dia, atmosfer kita nggak bakal se-chill ini.",
+    "summary": "Non-logam diatomik yang penting buat kehidupan. Nitrogen (N) Wujudnya padat/gas dengan massa atom 14.007. Dia meleleh di 63.15 K dan mendidih di 77.355 K. Berperan penting di atmosfer dan reaksi kimia dasar. Bener-bener vital!",
     "melt": 63.15,
     "boil": 77.355,
     "shells": [
@@ -122,7 +122,7 @@ export const elements = [
     "name": "Oxygen",
     "atomic_mass": 15.999,
     "category": "diatomic nonmetal",
-    "summary": "Main character di kehidupan kita. Tanpa dia, kita semua wassalam. Kerjanya gercep, reaktif, dan bener-bener vital buat semua orang.",
+    "summary": "Non-logam diatomik yang penting buat kehidupan. Oxygen (O) Wujudnya padat/gas dengan massa atom 15.999. Dia meleleh di 54.36 K dan mendidih di 90.188 K. Berperan penting di atmosfer dan reaksi kimia dasar. Bener-bener vital!",
     "melt": 54.36,
     "boil": 90.188,
     "shells": [
@@ -139,7 +139,7 @@ export const elements = [
     "name": "Fluorine",
     "atomic_mass": 18.9984031636,
     "category": "diatomic nonmetal",
-    "summary": "Ini Fluorine (F), salah satu anggota geng diatomic nonmetal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Non-logam diatomik yang penting buat kehidupan. Fluorine (F) Wujudnya padat/gas dengan massa atom 18.998. Dia meleleh di 53.48 K dan mendidih di 85.03 K. Berperan penting di atmosfer dan reaksi kimia dasar. Bener-bener vital!",
     "melt": 53.48,
     "boil": 85.03,
     "shells": [
@@ -156,7 +156,7 @@ export const elements = [
     "name": "Neon",
     "atomic_mass": 20.17976,
     "category": "noble gas",
-    "summary": "Si paling estetik. Selalu bersinar kalo dikasih panggung (listrik). Main character di lampu-lampu kota yang bikin vibe jadi makin asik.",
+    "summary": "Si gas mulia yang paling chill dan anti-reaksi. Neon (Ne) ini Wujudnya padat/gas dengan massa atom 20.180. Dia meleleh di 24.56 K dan mendidih di 27.104 K. Biasanya dipake buat lampu neon atau pengisi balon biar estetik. Main character yang introvert!",
     "melt": 24.56,
     "boil": 27.104,
     "shells": [
@@ -173,7 +173,7 @@ export const elements = [
     "name": "Sodium",
     "atomic_mass": 22.989769282,
     "category": "alkali metal",
-    "summary": "Kalo sendirian dia reaktif banget, tapi kalo udah ketemu Chlorine (Garam), dia jadi humble dan penyedap hidup kita semua.",
+    "summary": "Si paling reaktif! Sodium (Na) ini logam alkali yang enerjik abis. Wujudnya padat/gas dengan massa atom 22.990. Dia meleleh di 370.944 K dan mendidih di 1156.09 K. Hati-hati, dia nggak bisa anteng kalo ketemu air. Definisi gaskeun terus!",
     "melt": 370.944,
     "boil": 1156.09,
     "shells": [
@@ -191,7 +191,7 @@ export const elements = [
     "name": "Magnesium",
     "atomic_mass": 24.305,
     "category": "alkaline earth metal",
-    "summary": "Ini Magnesium (Mg), salah satu anggota geng alkaline earth metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Magnesium (Mg), anggota geng alkaline earth metal. Wujudnya padat/gas dengan massa atom 24.305. Dia meleleh di 923 K dan mendidih di 1363 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 923,
     "boil": 1363,
     "shells": [
@@ -209,7 +209,7 @@ export const elements = [
     "name": "Aluminium",
     "atomic_mass": 26.98153857,
     "category": "post-transition metal",
-    "summary": "Ini Aluminium (Al), salah satu anggota geng post-transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Aluminium (Al), anggota geng post-transition metal. Wujudnya padat/gas dengan massa atom 26.982. Dia meleleh di 933.47 K dan mendidih di 2743 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 933.47,
     "boil": 2743,
     "shells": [
@@ -227,7 +227,7 @@ export const elements = [
     "name": "Silicon",
     "atomic_mass": 28.085,
     "category": "metalloid",
-    "summary": "Ini Silicon (Si), salah satu anggota geng metalloid. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Silicon (Si), anggota geng metalloid. Wujudnya padat/gas dengan massa atom 28.085. Dia meleleh di 1687 K dan mendidih di 3538 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 1687,
     "boil": 3538,
     "shells": [
@@ -245,7 +245,7 @@ export const elements = [
     "name": "Phosphorus",
     "atomic_mass": 30.9737619985,
     "category": "polyatomic nonmetal",
-    "summary": "Ini Phosphorus (P), salah satu anggota geng polyatomic nonmetal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Phosphorus (P), anggota geng polyatomic nonmetal. Wujudnya padat/gas dengan massa atom 30.974. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": null,
     "boil": null,
     "shells": [
@@ -263,7 +263,7 @@ export const elements = [
     "name": "Sulfur",
     "atomic_mass": 32.06,
     "category": "polyatomic nonmetal",
-    "summary": "Ini Sulfur (S), salah satu anggota geng polyatomic nonmetal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Sulfur (S), anggota geng polyatomic nonmetal. Wujudnya padat/gas dengan massa atom 32.060. Dia meleleh di 388.36 K dan mendidih di 717.8 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 388.36,
     "boil": 717.8,
     "shells": [
@@ -281,7 +281,7 @@ export const elements = [
     "name": "Chlorine",
     "atomic_mass": 35.45,
     "category": "diatomic nonmetal",
-    "summary": "Ini Chlorine (Cl), salah satu anggota geng diatomic nonmetal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Non-logam diatomik yang penting buat kehidupan. Chlorine (Cl) Wujudnya padat/gas dengan massa atom 35.450. Dia meleleh di 171.6 K dan mendidih di 239.11 K. Berperan penting di atmosfer dan reaksi kimia dasar. Bener-bener vital!",
     "melt": 171.6,
     "boil": 239.11,
     "shells": [
@@ -299,7 +299,7 @@ export const elements = [
     "name": "Argon",
     "atomic_mass": 39.9481,
     "category": "noble gas",
-    "summary": "Ini Argon (Ar), salah satu anggota geng noble gas. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Si gas mulia yang paling chill dan anti-reaksi. Argon (Ar) ini Wujudnya padat/gas dengan massa atom 39.948. Dia meleleh di 83.81 K dan mendidih di 87.302 K. Biasanya dipake buat lampu neon atau pengisi balon biar estetik. Main character yang introvert!",
     "melt": 83.81,
     "boil": 87.302,
     "shells": [
@@ -317,7 +317,7 @@ export const elements = [
     "name": "Potassium",
     "atomic_mass": 39.09831,
     "category": "alkali metal",
-    "summary": "Ini Potassium (K), salah satu anggota geng alkali metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Si paling reaktif! Potassium (K) ini logam alkali yang enerjik abis. Wujudnya padat/gas dengan massa atom 39.098. Dia meleleh di 336.7 K dan mendidih di 1032 K. Hati-hati, dia nggak bisa anteng kalo ketemu air. Definisi gaskeun terus!",
     "melt": 336.7,
     "boil": 1032,
     "shells": [
@@ -336,7 +336,7 @@ export const elements = [
     "name": "Calcium",
     "atomic_mass": 40.0784,
     "category": "alkaline earth metal",
-    "summary": "Ini Calcium (Ca), salah satu anggota geng alkaline earth metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Calcium (Ca), anggota geng alkaline earth metal. Wujudnya padat/gas dengan massa atom 40.078. Dia meleleh di 1115 K dan mendidih di 1757 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 1115,
     "boil": 1757,
     "shells": [
@@ -355,7 +355,7 @@ export const elements = [
     "name": "Scandium",
     "atomic_mass": 44.9559085,
     "category": "transition metal",
-    "summary": "Ini Scandium (Sc), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Scandium (Sc) Wujudnya padat/gas dengan massa atom 44.956. Dia meleleh di 1814 K dan mendidih di 3109 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 1814,
     "boil": 3109,
     "shells": [
@@ -374,7 +374,7 @@ export const elements = [
     "name": "Titanium",
     "atomic_mass": 47.8671,
     "category": "transition metal",
-    "summary": "Ini Titanium (Ti), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Titanium (Ti) Wujudnya padat/gas dengan massa atom 47.867. Dia meleleh di 1941 K dan mendidih di 3560 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 1941,
     "boil": 3560,
     "shells": [
@@ -393,7 +393,7 @@ export const elements = [
     "name": "Vanadium",
     "atomic_mass": 50.94151,
     "category": "transition metal",
-    "summary": "Ini Vanadium (V), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Vanadium (V) Wujudnya padat/gas dengan massa atom 50.942. Dia meleleh di 2183 K dan mendidih di 3680 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 2183,
     "boil": 3680,
     "shells": [
@@ -412,7 +412,7 @@ export const elements = [
     "name": "Chromium",
     "atomic_mass": 51.99616,
     "category": "transition metal",
-    "summary": "Ini Chromium (Cr), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Chromium (Cr) Wujudnya padat/gas dengan massa atom 51.996. Dia meleleh di 2180 K dan mendidih di 2944 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 2180,
     "boil": 2944,
     "shells": [
@@ -431,7 +431,7 @@ export const elements = [
     "name": "Manganese",
     "atomic_mass": 54.9380443,
     "category": "transition metal",
-    "summary": "Ini Manganese (Mn), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Manganese (Mn) Wujudnya padat/gas dengan massa atom 54.938. Dia meleleh di 1519 K dan mendidih di 2334 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 1519,
     "boil": 2334,
     "shells": [
@@ -450,7 +450,7 @@ export const elements = [
     "name": "Iron",
     "atomic_mass": 55.8452,
     "category": "transition metal",
-    "summary": "Kuat, tangguh, dan bener-bener tulang punggung peradaban. Dari jembatan sampe sel darah lo, dia pelakunya. Tanggung jawabnya gede banget!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Iron (Fe) Wujudnya padat/gas dengan massa atom 55.845. Dia meleleh di 1811 K dan mendidih di 3134 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 1811,
     "boil": 3134,
     "shells": [
@@ -469,7 +469,7 @@ export const elements = [
     "name": "Cobalt",
     "atomic_mass": 58.9331944,
     "category": "transition metal",
-    "summary": "Ini Cobalt (Co), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Cobalt (Co) Wujudnya padat/gas dengan massa atom 58.933. Dia meleleh di 1768 K dan mendidih di 3200 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 1768,
     "boil": 3200,
     "shells": [
@@ -488,7 +488,7 @@ export const elements = [
     "name": "Nickel",
     "atomic_mass": 58.69344,
     "category": "transition metal",
-    "summary": "Ini Nickel (Ni), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Nickel (Ni) Wujudnya padat/gas dengan massa atom 58.693. Dia meleleh di 1728 K dan mendidih di 3003 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 1728,
     "boil": 3003,
     "shells": [
@@ -507,7 +507,7 @@ export const elements = [
     "name": "Copper",
     "atomic_mass": 63.5463,
     "category": "transition metal",
-    "summary": "Ini Copper (Cu), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Copper (Cu) Wujudnya padat/gas dengan massa atom 63.546. Dia meleleh di 1357.77 K dan mendidih di 2835 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 1357.77,
     "boil": 2835,
     "shells": [
@@ -526,7 +526,7 @@ export const elements = [
     "name": "Zinc",
     "atomic_mass": 65.382,
     "category": "transition metal",
-    "summary": "Ini Zinc (Zn), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Zinc (Zn) Wujudnya padat/gas dengan massa atom 65.382. Dia meleleh di 692.68 K dan mendidih di 1180 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 692.68,
     "boil": 1180,
     "shells": [
@@ -545,7 +545,7 @@ export const elements = [
     "name": "Gallium",
     "atomic_mass": 69.7231,
     "category": "post-transition metal",
-    "summary": "Ini Gallium (Ga), salah satu anggota geng post-transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Gallium (Ga), anggota geng post-transition metal. Wujudnya padat/gas dengan massa atom 69.723. Dia meleleh di 302.9146 K dan mendidih di 2673 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 302.9146,
     "boil": 2673,
     "shells": [
@@ -564,7 +564,7 @@ export const elements = [
     "name": "Germanium",
     "atomic_mass": 72.6308,
     "category": "metalloid",
-    "summary": "Ini Germanium (Ge), salah satu anggota geng metalloid. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Germanium (Ge), anggota geng metalloid. Wujudnya padat/gas dengan massa atom 72.631. Dia meleleh di 1211.4 K dan mendidih di 3106 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 1211.4,
     "boil": 3106,
     "shells": [
@@ -583,7 +583,7 @@ export const elements = [
     "name": "Arsenic",
     "atomic_mass": 74.9215956,
     "category": "metalloid",
-    "summary": "Ini Arsenic (As), salah satu anggota geng metalloid. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Arsenic (As), anggota geng metalloid. Wujudnya padat/gas dengan massa atom 74.922. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": null,
     "boil": null,
     "shells": [
@@ -602,7 +602,7 @@ export const elements = [
     "name": "Selenium",
     "atomic_mass": 78.9718,
     "category": "polyatomic nonmetal",
-    "summary": "Ini Selenium (Se), salah satu anggota geng polyatomic nonmetal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Selenium (Se), anggota geng polyatomic nonmetal. Wujudnya padat/gas dengan massa atom 78.972. Dia meleleh di 494 K dan mendidih di 958 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 494,
     "boil": 958,
     "shells": [
@@ -621,7 +621,7 @@ export const elements = [
     "name": "Bromine",
     "atomic_mass": 79.904,
     "category": "diatomic nonmetal",
-    "summary": "Ini Bromine (Br), salah satu anggota geng diatomic nonmetal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Non-logam diatomik yang penting buat kehidupan. Bromine (Br) Wujudnya padat/gas dengan massa atom 79.904. Dia meleleh di 265.8 K dan mendidih di 332 K. Berperan penting di atmosfer dan reaksi kimia dasar. Bener-bener vital!",
     "melt": 265.8,
     "boil": 332,
     "shells": [
@@ -640,7 +640,7 @@ export const elements = [
     "name": "Krypton",
     "atomic_mass": 83.7982,
     "category": "noble gas",
-    "summary": "Ini Krypton (Kr), salah satu anggota geng noble gas. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Si gas mulia yang paling chill dan anti-reaksi. Krypton (Kr) ini Wujudnya padat/gas dengan massa atom 83.798. Dia meleleh di 115.78 K dan mendidih di 119.93 K. Biasanya dipake buat lampu neon atau pengisi balon biar estetik. Main character yang introvert!",
     "melt": 115.78,
     "boil": 119.93,
     "shells": [
@@ -659,7 +659,7 @@ export const elements = [
     "name": "Rubidium",
     "atomic_mass": 85.46783,
     "category": "alkali metal",
-    "summary": "Ini Rubidium (Rb), salah satu anggota geng alkali metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Si paling reaktif! Rubidium (Rb) ini logam alkali yang enerjik abis. Wujudnya padat/gas dengan massa atom 85.468. Dia meleleh di 312.45 K dan mendidih di 961 K. Hati-hati, dia nggak bisa anteng kalo ketemu air. Definisi gaskeun terus!",
     "melt": 312.45,
     "boil": 961,
     "shells": [
@@ -679,7 +679,7 @@ export const elements = [
     "name": "Strontium",
     "atomic_mass": 87.621,
     "category": "alkaline earth metal",
-    "summary": "Ini Strontium (Sr), salah satu anggota geng alkaline earth metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Strontium (Sr), anggota geng alkaline earth metal. Wujudnya padat/gas dengan massa atom 87.621. Dia meleleh di 1050 K dan mendidih di 1650 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 1050,
     "boil": 1650,
     "shells": [
@@ -699,7 +699,7 @@ export const elements = [
     "name": "Yttrium",
     "atomic_mass": 88.905842,
     "category": "transition metal",
-    "summary": "Ini Yttrium (Y), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Yttrium (Y) Wujudnya padat/gas dengan massa atom 88.906. Dia meleleh di 1799 K dan mendidih di 3203 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 1799,
     "boil": 3203,
     "shells": [
@@ -719,7 +719,7 @@ export const elements = [
     "name": "Zirconium",
     "atomic_mass": 91.2242,
     "category": "transition metal",
-    "summary": "Ini Zirconium (Zr), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Zirconium (Zr) Wujudnya padat/gas dengan massa atom 91.224. Dia meleleh di 2128 K dan mendidih di 4650 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 2128,
     "boil": 4650,
     "shells": [
@@ -739,7 +739,7 @@ export const elements = [
     "name": "Niobium",
     "atomic_mass": 92.906372,
     "category": "transition metal",
-    "summary": "Ini Niobium (Nb), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Niobium (Nb) Wujudnya padat/gas dengan massa atom 92.906. Dia meleleh di 2750 K dan mendidih di 5017 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 2750,
     "boil": 5017,
     "shells": [
@@ -759,7 +759,7 @@ export const elements = [
     "name": "Molybdenum",
     "atomic_mass": 95.951,
     "category": "transition metal",
-    "summary": "Ini Molybdenum (Mo), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Molybdenum (Mo) Wujudnya padat/gas dengan massa atom 95.951. Dia meleleh di 2896 K dan mendidih di 4912 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 2896,
     "boil": 4912,
     "shells": [
@@ -779,7 +779,7 @@ export const elements = [
     "name": "Technetium",
     "atomic_mass": 98,
     "category": "transition metal",
-    "summary": "Ini Technetium (Tc), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Technetium (Tc) Wujudnya padat/gas dengan massa atom 98.000. Dia meleleh di 2430 K dan mendidih di 4538 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 2430,
     "boil": 4538,
     "shells": [
@@ -799,7 +799,7 @@ export const elements = [
     "name": "Ruthenium",
     "atomic_mass": 101.072,
     "category": "transition metal",
-    "summary": "Ini Ruthenium (Ru), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Ruthenium (Ru) Wujudnya padat/gas dengan massa atom 101.072. Dia meleleh di 2607 K dan mendidih di 4423 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 2607,
     "boil": 4423,
     "shells": [
@@ -819,7 +819,7 @@ export const elements = [
     "name": "Rhodium",
     "atomic_mass": 102.905502,
     "category": "transition metal",
-    "summary": "Ini Rhodium (Rh), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Rhodium (Rh) Wujudnya padat/gas dengan massa atom 102.906. Dia meleleh di 2237 K dan mendidih di 3968 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 2237,
     "boil": 3968,
     "shells": [
@@ -839,7 +839,7 @@ export const elements = [
     "name": "Palladium",
     "atomic_mass": 106.421,
     "category": "transition metal",
-    "summary": "Ini Palladium (Pd), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Palladium (Pd) Wujudnya padat/gas dengan massa atom 106.421. Dia meleleh di 1828.05 K dan mendidih di 3236 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 1828.05,
     "boil": 3236,
     "shells": [
@@ -858,7 +858,7 @@ export const elements = [
     "name": "Silver",
     "atomic_mass": 107.86822,
     "category": "transition metal",
-    "summary": "Ini Silver (Ag), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Silver (Ag) Wujudnya padat/gas dengan massa atom 107.868. Dia meleleh di 1234.93 K dan mendidih di 2435 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 1234.93,
     "boil": 2435,
     "shells": [
@@ -878,7 +878,7 @@ export const elements = [
     "name": "Cadmium",
     "atomic_mass": 112.4144,
     "category": "transition metal",
-    "summary": "Ini Cadmium (Cd), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Cadmium (Cd) Wujudnya padat/gas dengan massa atom 112.414. Dia meleleh di 594.22 K dan mendidih di 1040 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 594.22,
     "boil": 1040,
     "shells": [
@@ -898,7 +898,7 @@ export const elements = [
     "name": "Indium",
     "atomic_mass": 114.8181,
     "category": "post-transition metal",
-    "summary": "Ini Indium (In), salah satu anggota geng post-transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Indium (In), anggota geng post-transition metal. Wujudnya padat/gas dengan massa atom 114.818. Dia meleleh di 429.7485 K dan mendidih di 2345 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 429.7485,
     "boil": 2345,
     "shells": [
@@ -918,7 +918,7 @@ export const elements = [
     "name": "Tin",
     "atomic_mass": 118.7107,
     "category": "post-transition metal",
-    "summary": "Ini Tin (Sn), salah satu anggota geng post-transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Tin (Sn), anggota geng post-transition metal. Wujudnya padat/gas dengan massa atom 118.711. Dia meleleh di 505.08 K dan mendidih di 2875 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 505.08,
     "boil": 2875,
     "shells": [
@@ -938,7 +938,7 @@ export const elements = [
     "name": "Antimony",
     "atomic_mass": 121.7601,
     "category": "metalloid",
-    "summary": "Ini Antimony (Sb), salah satu anggota geng metalloid. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Antimony (Sb), anggota geng metalloid. Wujudnya padat/gas dengan massa atom 121.760. Dia meleleh di 903.78 K dan mendidih di 1908 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 903.78,
     "boil": 1908,
     "shells": [
@@ -958,7 +958,7 @@ export const elements = [
     "name": "Tellurium",
     "atomic_mass": 127.603,
     "category": "metalloid",
-    "summary": "Ini Tellurium (Te), salah satu anggota geng metalloid. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Tellurium (Te), anggota geng metalloid. Wujudnya padat/gas dengan massa atom 127.603. Dia meleleh di 722.66 K dan mendidih di 1261 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 722.66,
     "boil": 1261,
     "shells": [
@@ -978,7 +978,7 @@ export const elements = [
     "name": "Iodine",
     "atomic_mass": 126.904473,
     "category": "diatomic nonmetal",
-    "summary": "Ini Iodine (I), salah satu anggota geng diatomic nonmetal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Non-logam diatomik yang penting buat kehidupan. Iodine (I) Wujudnya padat/gas dengan massa atom 126.904. Dia meleleh di 386.85 K dan mendidih di 457.4 K. Berperan penting di atmosfer dan reaksi kimia dasar. Bener-bener vital!",
     "melt": 386.85,
     "boil": 457.4,
     "shells": [
@@ -998,7 +998,7 @@ export const elements = [
     "name": "Xenon",
     "atomic_mass": 131.2936,
     "category": "noble gas",
-    "summary": "Ini Xenon (Xe), salah satu anggota geng noble gas. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Si gas mulia yang paling chill dan anti-reaksi. Xenon (Xe) ini Wujudnya padat/gas dengan massa atom 131.294. Dia meleleh di 161.4 K dan mendidih di 165.051 K. Biasanya dipake buat lampu neon atau pengisi balon biar estetik. Main character yang introvert!",
     "melt": 161.4,
     "boil": 165.051,
     "shells": [
@@ -1018,7 +1018,7 @@ export const elements = [
     "name": "Cesium",
     "atomic_mass": 132.905451966,
     "category": "alkali metal",
-    "summary": "Ini Cesium (Cs), salah satu anggota geng alkali metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Si paling reaktif! Cesium (Cs) ini logam alkali yang enerjik abis. Wujudnya padat/gas dengan massa atom 132.905. Dia meleleh di 301.7 K dan mendidih di 944 K. Hati-hati, dia nggak bisa anteng kalo ketemu air. Definisi gaskeun terus!",
     "melt": 301.7,
     "boil": 944,
     "shells": [
@@ -1039,7 +1039,7 @@ export const elements = [
     "name": "Barium",
     "atomic_mass": 137.3277,
     "category": "alkaline earth metal",
-    "summary": "Ini Barium (Ba), salah satu anggota geng alkaline earth metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Barium (Ba), anggota geng alkaline earth metal. Wujudnya padat/gas dengan massa atom 137.328. Dia meleleh di 1000 K dan mendidih di 2118 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 1000,
     "boil": 2118,
     "shells": [
@@ -1060,7 +1060,7 @@ export const elements = [
     "name": "Lanthanum",
     "atomic_mass": 138.905477,
     "category": "lanthanide",
-    "summary": "Ini Lanthanum (La), salah satu anggota geng lanthanide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng tanah jarang yang misterius tapi krusial buat teknologi. Lanthanum (La) Wujudnya padat/gas dengan massa atom 138.905. Dia meleleh di 1193 K dan mendidih di 3737 K. Banyak dipake di layar HP atau magnet super kuat. Kecil tapi berdampak gede!",
     "melt": 1193,
     "boil": 3737,
     "shells": [
@@ -1081,7 +1081,7 @@ export const elements = [
     "name": "Cerium",
     "atomic_mass": 140.1161,
     "category": "lanthanide",
-    "summary": "Ini Cerium (Ce), salah satu anggota geng lanthanide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng tanah jarang yang misterius tapi krusial buat teknologi. Cerium (Ce) Wujudnya padat/gas dengan massa atom 140.116. Dia meleleh di 1068 K dan mendidih di 3716 K. Banyak dipake di layar HP atau magnet super kuat. Kecil tapi berdampak gede!",
     "melt": 1068,
     "boil": 3716,
     "shells": [
@@ -1102,7 +1102,7 @@ export const elements = [
     "name": "Praseodymium",
     "atomic_mass": 140.907662,
     "category": "lanthanide",
-    "summary": "Ini Praseodymium (Pr), salah satu anggota geng lanthanide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng tanah jarang yang misterius tapi krusial buat teknologi. Praseodymium (Pr) Wujudnya padat/gas dengan massa atom 140.908. Dia meleleh di 1208 K dan mendidih di 3403 K. Banyak dipake di layar HP atau magnet super kuat. Kecil tapi berdampak gede!",
     "melt": 1208,
     "boil": 3403,
     "shells": [
@@ -1123,7 +1123,7 @@ export const elements = [
     "name": "Neodymium",
     "atomic_mass": 144.2423,
     "category": "lanthanide",
-    "summary": "Ini Neodymium (Nd), salah satu anggota geng lanthanide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng tanah jarang yang misterius tapi krusial buat teknologi. Neodymium (Nd) Wujudnya padat/gas dengan massa atom 144.242. Dia meleleh di 1297 K dan mendidih di 3347 K. Banyak dipake di layar HP atau magnet super kuat. Kecil tapi berdampak gede!",
     "melt": 1297,
     "boil": 3347,
     "shells": [
@@ -1144,7 +1144,7 @@ export const elements = [
     "name": "Promethium",
     "atomic_mass": 145,
     "category": "lanthanide",
-    "summary": "Ini Promethium (Pm), salah satu anggota geng lanthanide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng tanah jarang yang misterius tapi krusial buat teknologi. Promethium (Pm) Wujudnya padat/gas dengan massa atom 145.000. Dia meleleh di 1315 K dan mendidih di 3273 K. Banyak dipake di layar HP atau magnet super kuat. Kecil tapi berdampak gede!",
     "melt": 1315,
     "boil": 3273,
     "shells": [
@@ -1165,7 +1165,7 @@ export const elements = [
     "name": "Samarium",
     "atomic_mass": 150.362,
     "category": "lanthanide",
-    "summary": "Ini Samarium (Sm), salah satu anggota geng lanthanide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng tanah jarang yang misterius tapi krusial buat teknologi. Samarium (Sm) Wujudnya padat/gas dengan massa atom 150.362. Dia meleleh di 1345 K dan mendidih di 2173 K. Banyak dipake di layar HP atau magnet super kuat. Kecil tapi berdampak gede!",
     "melt": 1345,
     "boil": 2173,
     "shells": [
@@ -1186,7 +1186,7 @@ export const elements = [
     "name": "Europium",
     "atomic_mass": 151.9641,
     "category": "lanthanide",
-    "summary": "Ini Europium (Eu), salah satu anggota geng lanthanide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng tanah jarang yang misterius tapi krusial buat teknologi. Europium (Eu) Wujudnya padat/gas dengan massa atom 151.964. Dia meleleh di 1099 K dan mendidih di 1802 K. Banyak dipake di layar HP atau magnet super kuat. Kecil tapi berdampak gede!",
     "melt": 1099,
     "boil": 1802,
     "shells": [
@@ -1207,7 +1207,7 @@ export const elements = [
     "name": "Gadolinium",
     "atomic_mass": 157.253,
     "category": "lanthanide",
-    "summary": "Ini Gadolinium (Gd), salah satu anggota geng lanthanide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng tanah jarang yang misterius tapi krusial buat teknologi. Gadolinium (Gd) Wujudnya padat/gas dengan massa atom 157.253. Dia meleleh di 1585 K dan mendidih di 3273 K. Banyak dipake di layar HP atau magnet super kuat. Kecil tapi berdampak gede!",
     "melt": 1585,
     "boil": 3273,
     "shells": [
@@ -1228,7 +1228,7 @@ export const elements = [
     "name": "Terbium",
     "atomic_mass": 158.925352,
     "category": "lanthanide",
-    "summary": "Ini Terbium (Tb), salah satu anggota geng lanthanide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng tanah jarang yang misterius tapi krusial buat teknologi. Terbium (Tb) Wujudnya padat/gas dengan massa atom 158.925. Dia meleleh di 1629 K dan mendidih di 3396 K. Banyak dipake di layar HP atau magnet super kuat. Kecil tapi berdampak gede!",
     "melt": 1629,
     "boil": 3396,
     "shells": [
@@ -1249,7 +1249,7 @@ export const elements = [
     "name": "Dysprosium",
     "atomic_mass": 162.5001,
     "category": "lanthanide",
-    "summary": "Ini Dysprosium (Dy), salah satu anggota geng lanthanide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng tanah jarang yang misterius tapi krusial buat teknologi. Dysprosium (Dy) Wujudnya padat/gas dengan massa atom 162.500. Dia meleleh di 1680 K dan mendidih di 2840 K. Banyak dipake di layar HP atau magnet super kuat. Kecil tapi berdampak gede!",
     "melt": 1680,
     "boil": 2840,
     "shells": [
@@ -1270,7 +1270,7 @@ export const elements = [
     "name": "Holmium",
     "atomic_mass": 164.930332,
     "category": "lanthanide",
-    "summary": "Ini Holmium (Ho), salah satu anggota geng lanthanide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng tanah jarang yang misterius tapi krusial buat teknologi. Holmium (Ho) Wujudnya padat/gas dengan massa atom 164.930. Dia meleleh di 1734 K dan mendidih di 2873 K. Banyak dipake di layar HP atau magnet super kuat. Kecil tapi berdampak gede!",
     "melt": 1734,
     "boil": 2873,
     "shells": [
@@ -1291,7 +1291,7 @@ export const elements = [
     "name": "Erbium",
     "atomic_mass": 167.2593,
     "category": "lanthanide",
-    "summary": "Ini Erbium (Er), salah satu anggota geng lanthanide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng tanah jarang yang misterius tapi krusial buat teknologi. Erbium (Er) Wujudnya padat/gas dengan massa atom 167.259. Dia meleleh di 1802 K dan mendidih di 3141 K. Banyak dipake di layar HP atau magnet super kuat. Kecil tapi berdampak gede!",
     "melt": 1802,
     "boil": 3141,
     "shells": [
@@ -1312,7 +1312,7 @@ export const elements = [
     "name": "Thulium",
     "atomic_mass": 168.934222,
     "category": "lanthanide",
-    "summary": "Ini Thulium (Tm), salah satu anggota geng lanthanide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng tanah jarang yang misterius tapi krusial buat teknologi. Thulium (Tm) Wujudnya padat/gas dengan massa atom 168.934. Dia meleleh di 1818 K dan mendidih di 2223 K. Banyak dipake di layar HP atau magnet super kuat. Kecil tapi berdampak gede!",
     "melt": 1818,
     "boil": 2223,
     "shells": [
@@ -1333,7 +1333,7 @@ export const elements = [
     "name": "Ytterbium",
     "atomic_mass": 173.0451,
     "category": "lanthanide",
-    "summary": "Ini Ytterbium (Yb), salah satu anggota geng lanthanide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng tanah jarang yang misterius tapi krusial buat teknologi. Ytterbium (Yb) Wujudnya padat/gas dengan massa atom 173.045. Dia meleleh di 1097 K dan mendidih di 1469 K. Banyak dipake di layar HP atau magnet super kuat. Kecil tapi berdampak gede!",
     "melt": 1097,
     "boil": 1469,
     "shells": [
@@ -1354,7 +1354,7 @@ export const elements = [
     "name": "Lutetium",
     "atomic_mass": 174.96681,
     "category": "lanthanide",
-    "summary": "Ini Lutetium (Lu), salah satu anggota geng lanthanide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng tanah jarang yang misterius tapi krusial buat teknologi. Lutetium (Lu) Wujudnya padat/gas dengan massa atom 174.967. Dia meleleh di 1925 K dan mendidih di 3675 K. Banyak dipake di layar HP atau magnet super kuat. Kecil tapi berdampak gede!",
     "melt": 1925,
     "boil": 3675,
     "shells": [
@@ -1375,7 +1375,7 @@ export const elements = [
     "name": "Hafnium",
     "atomic_mass": 178.492,
     "category": "transition metal",
-    "summary": "Ini Hafnium (Hf), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Hafnium (Hf) Wujudnya padat/gas dengan massa atom 178.492. Dia meleleh di 2506 K dan mendidih di 4876 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 2506,
     "boil": 4876,
     "shells": [
@@ -1396,7 +1396,7 @@ export const elements = [
     "name": "Tantalum",
     "atomic_mass": 180.947882,
     "category": "transition metal",
-    "summary": "Ini Tantalum (Ta), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Tantalum (Ta) Wujudnya padat/gas dengan massa atom 180.948. Dia meleleh di 3290 K dan mendidih di 5731 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 3290,
     "boil": 5731,
     "shells": [
@@ -1417,7 +1417,7 @@ export const elements = [
     "name": "Tungsten",
     "atomic_mass": 183.841,
     "category": "transition metal",
-    "summary": "Ini Tungsten (W), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Tungsten (W) Wujudnya padat/gas dengan massa atom 183.841. Dia meleleh di 3695 K dan mendidih di 6203 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 3695,
     "boil": 6203,
     "shells": [
@@ -1438,7 +1438,7 @@ export const elements = [
     "name": "Rhenium",
     "atomic_mass": 186.2071,
     "category": "transition metal",
-    "summary": "Ini Rhenium (Re), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Rhenium (Re) Wujudnya padat/gas dengan massa atom 186.207. Dia meleleh di 3459 K dan mendidih di 5869 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 3459,
     "boil": 5869,
     "shells": [
@@ -1459,7 +1459,7 @@ export const elements = [
     "name": "Osmium",
     "atomic_mass": 190.233,
     "category": "transition metal",
-    "summary": "Ini Osmium (Os), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Osmium (Os) Wujudnya padat/gas dengan massa atom 190.233. Dia meleleh di 3306 K dan mendidih di 5285 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 3306,
     "boil": 5285,
     "shells": [
@@ -1480,7 +1480,7 @@ export const elements = [
     "name": "Iridium",
     "atomic_mass": 192.2173,
     "category": "transition metal",
-    "summary": "Ini Iridium (Ir), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Iridium (Ir) Wujudnya padat/gas dengan massa atom 192.217. Dia meleleh di 2719 K dan mendidih di 4403 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 2719,
     "boil": 4403,
     "shells": [
@@ -1501,7 +1501,7 @@ export const elements = [
     "name": "Platinum",
     "atomic_mass": 195.0849,
     "category": "transition metal",
-    "summary": "Ini Platinum (Pt), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Platinum (Pt) Wujudnya padat/gas dengan massa atom 195.085. Dia meleleh di 2041.4 K dan mendidih di 4098 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 2041.4,
     "boil": 4098,
     "shells": [
@@ -1522,7 +1522,7 @@ export const elements = [
     "name": "Gold",
     "atomic_mass": 196.9665695,
     "category": "transition metal",
-    "summary": "Sultan-nya para logam. Anti-karat, shiny, dan investable banget. Definisi 'high value' element yang nggak bakal kemakan zaman.",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Gold (Au) Wujudnya padat/gas dengan massa atom 196.967. Dia meleleh di 1337.33 K dan mendidih di 3243 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 1337.33,
     "boil": 3243,
     "shells": [
@@ -1543,7 +1543,7 @@ export const elements = [
     "name": "Mercury",
     "atomic_mass": 200.5923,
     "category": "transition metal",
-    "summary": "Ini Mercury (Hg), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Mercury (Hg) Wujudnya padat/gas dengan massa atom 200.592. Dia meleleh di 234.321 K dan mendidih di 629.88 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 234.321,
     "boil": 629.88,
     "shells": [
@@ -1564,7 +1564,7 @@ export const elements = [
     "name": "Thallium",
     "atomic_mass": 204.38,
     "category": "post-transition metal",
-    "summary": "Ini Thallium (Tl), salah satu anggota geng post-transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Thallium (Tl), anggota geng post-transition metal. Wujudnya padat/gas dengan massa atom 204.380. Dia meleleh di 577 K dan mendidih di 1746 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 577,
     "boil": 1746,
     "shells": [
@@ -1585,7 +1585,7 @@ export const elements = [
     "name": "Lead",
     "atomic_mass": 207.21,
     "category": "post-transition metal",
-    "summary": "Ini Lead (Pb), salah satu anggota geng post-transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Lead (Pb), anggota geng post-transition metal. Wujudnya padat/gas dengan massa atom 207.210. Dia meleleh di 600.61 K dan mendidih di 2022 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 600.61,
     "boil": 2022,
     "shells": [
@@ -1606,7 +1606,7 @@ export const elements = [
     "name": "Bismuth",
     "atomic_mass": 208.980401,
     "category": "post-transition metal",
-    "summary": "Ini Bismuth (Bi), salah satu anggota geng post-transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Bismuth (Bi), anggota geng post-transition metal. Wujudnya padat/gas dengan massa atom 208.980. Dia meleleh di 544.7 K dan mendidih di 1837 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 544.7,
     "boil": 1837,
     "shells": [
@@ -1627,7 +1627,7 @@ export const elements = [
     "name": "Polonium",
     "atomic_mass": 209,
     "category": "post-transition metal",
-    "summary": "Ini Polonium (Po), salah satu anggota geng post-transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Polonium (Po), anggota geng post-transition metal. Wujudnya padat/gas dengan massa atom 209.000. Dia meleleh di 527 K dan mendidih di 1235 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 527,
     "boil": 1235,
     "shells": [
@@ -1648,7 +1648,7 @@ export const elements = [
     "name": "Astatine",
     "atomic_mass": 210,
     "category": "metalloid",
-    "summary": "Ini Astatine (At), salah satu anggota geng metalloid. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Astatine (At), anggota geng metalloid. Wujudnya padat/gas dengan massa atom 210.000. Dia meleleh di 575 K dan mendidih di 610 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 575,
     "boil": 610,
     "shells": [
@@ -1669,7 +1669,7 @@ export const elements = [
     "name": "Radon",
     "atomic_mass": 222,
     "category": "noble gas",
-    "summary": "Ini Radon (Rn), salah satu anggota geng noble gas. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Si gas mulia yang paling chill dan anti-reaksi. Radon (Rn) ini Wujudnya padat/gas dengan massa atom 222.000. Dia meleleh di 202 K dan mendidih di 211.5 K. Biasanya dipake buat lampu neon atau pengisi balon biar estetik. Main character yang introvert!",
     "melt": 202,
     "boil": 211.5,
     "shells": [
@@ -1690,7 +1690,7 @@ export const elements = [
     "name": "Francium",
     "atomic_mass": 223,
     "category": "alkali metal",
-    "summary": "Ini Francium (Fr), salah satu anggota geng alkali metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Si paling reaktif! Francium (Fr) ini logam alkali yang enerjik abis. Wujudnya padat/gas dengan massa atom 223.000. Dia meleleh di 300 K dan mendidih di 950 K. Hati-hati, dia nggak bisa anteng kalo ketemu air. Definisi gaskeun terus!",
     "melt": 300,
     "boil": 950,
     "shells": [
@@ -1712,7 +1712,7 @@ export const elements = [
     "name": "Radium",
     "atomic_mass": 226,
     "category": "alkaline earth metal",
-    "summary": "Ini Radium (Ra), salah satu anggota geng alkaline earth metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Radium (Ra), anggota geng alkaline earth metal. Wujudnya padat/gas dengan massa atom 226.000. Dia meleleh di 1233 K dan mendidih di 2010 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 1233,
     "boil": 2010,
     "shells": [
@@ -1734,7 +1734,7 @@ export const elements = [
     "name": "Actinium",
     "atomic_mass": 227,
     "category": "actinide",
-    "summary": "Ini Actinium (Ac), salah satu anggota geng actinide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng unsur berat yang mayoritas radioaktif. Actinium (Ac) Wujudnya padat/gas dengan massa atom 227.000. Dia meleleh di 1500 K dan mendidih di 3500 K. Beberapa dibuat di lab. Powerhouse yang harus ditangani hati-hati bray!",
     "melt": 1500,
     "boil": 3500,
     "shells": [
@@ -1756,7 +1756,7 @@ export const elements = [
     "name": "Thorium",
     "atomic_mass": 232.03774,
     "category": "actinide",
-    "summary": "Ini Thorium (Th), salah satu anggota geng actinide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng unsur berat yang mayoritas radioaktif. Thorium (Th) Wujudnya padat/gas dengan massa atom 232.038. Dia meleleh di 2023 K dan mendidih di 5061 K. Beberapa dibuat di lab. Powerhouse yang harus ditangani hati-hati bray!",
     "melt": 2023,
     "boil": 5061,
     "shells": [
@@ -1778,7 +1778,7 @@ export const elements = [
     "name": "Protactinium",
     "atomic_mass": 231.035882,
     "category": "actinide",
-    "summary": "Ini Protactinium (Pa), salah satu anggota geng actinide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng unsur berat yang mayoritas radioaktif. Protactinium (Pa) Wujudnya padat/gas dengan massa atom 231.036. Dia meleleh di 1841 K dan mendidih di 4300 K. Beberapa dibuat di lab. Powerhouse yang harus ditangani hati-hati bray!",
     "melt": 1841,
     "boil": 4300,
     "shells": [
@@ -1800,7 +1800,7 @@ export const elements = [
     "name": "Uranium",
     "atomic_mass": 238.028913,
     "category": "actinide",
-    "summary": "Ini Uranium (U), salah satu anggota geng actinide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng unsur berat yang mayoritas radioaktif. Uranium (U) Wujudnya padat/gas dengan massa atom 238.029. Dia meleleh di 1405.3 K dan mendidih di 4404 K. Beberapa dibuat di lab. Powerhouse yang harus ditangani hati-hati bray!",
     "melt": 1405.3,
     "boil": 4404,
     "shells": [
@@ -1822,7 +1822,7 @@ export const elements = [
     "name": "Neptunium",
     "atomic_mass": 237,
     "category": "actinide",
-    "summary": "Ini Neptunium (Np), salah satu anggota geng actinide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng unsur berat yang mayoritas radioaktif. Neptunium (Np) Wujudnya padat/gas dengan massa atom 237.000. Dia meleleh di 912 K dan mendidih di 4447 K. Beberapa dibuat di lab. Powerhouse yang harus ditangani hati-hati bray!",
     "melt": 912,
     "boil": 4447,
     "shells": [
@@ -1844,7 +1844,7 @@ export const elements = [
     "name": "Plutonium",
     "atomic_mass": 244,
     "category": "actinide",
-    "summary": "Ini Plutonium (Pu), salah satu anggota geng actinide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng unsur berat yang mayoritas radioaktif. Plutonium (Pu) Wujudnya padat/gas dengan massa atom 244.000. Dia meleleh di 912.5 K dan mendidih di 3505 K. Beberapa dibuat di lab. Powerhouse yang harus ditangani hati-hati bray!",
     "melt": 912.5,
     "boil": 3505,
     "shells": [
@@ -1866,7 +1866,7 @@ export const elements = [
     "name": "Americium",
     "atomic_mass": 243,
     "category": "actinide",
-    "summary": "Ini Americium (Am), salah satu anggota geng actinide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng unsur berat yang mayoritas radioaktif. Americium (Am) Wujudnya padat/gas dengan massa atom 243.000. Dia meleleh di 1449 K dan mendidih di 2880 K. Beberapa dibuat di lab. Powerhouse yang harus ditangani hati-hati bray!",
     "melt": 1449,
     "boil": 2880,
     "shells": [
@@ -1888,7 +1888,7 @@ export const elements = [
     "name": "Curium",
     "atomic_mass": 247,
     "category": "actinide",
-    "summary": "Ini Curium (Cm), salah satu anggota geng actinide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng unsur berat yang mayoritas radioaktif. Curium (Cm) Wujudnya padat/gas dengan massa atom 247.000. Dia meleleh di 1613 K dan mendidih di 3383 K. Beberapa dibuat di lab. Powerhouse yang harus ditangani hati-hati bray!",
     "melt": 1613,
     "boil": 3383,
     "shells": [
@@ -1910,7 +1910,7 @@ export const elements = [
     "name": "Berkelium",
     "atomic_mass": 247,
     "category": "actinide",
-    "summary": "Ini Berkelium (Bk), salah satu anggota geng actinide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng unsur berat yang mayoritas radioaktif. Berkelium (Bk) Wujudnya padat/gas dengan massa atom 247.000. Dia meleleh di 1259 K dan mendidih di 2900 K. Beberapa dibuat di lab. Powerhouse yang harus ditangani hati-hati bray!",
     "melt": 1259,
     "boil": 2900,
     "shells": [
@@ -1932,7 +1932,7 @@ export const elements = [
     "name": "Californium",
     "atomic_mass": 251,
     "category": "actinide",
-    "summary": "Ini Californium (Cf), salah satu anggota geng actinide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng unsur berat yang mayoritas radioaktif. Californium (Cf) Wujudnya padat/gas dengan massa atom 251.000. Dia meleleh di 1173 K dan mendidih di 1743 K. Beberapa dibuat di lab. Powerhouse yang harus ditangani hati-hati bray!",
     "melt": 1173,
     "boil": 1743,
     "shells": [
@@ -1954,7 +1954,7 @@ export const elements = [
     "name": "Einsteinium",
     "atomic_mass": 252,
     "category": "actinide",
-    "summary": "Ini Einsteinium (Es), salah satu anggota geng actinide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng unsur berat yang mayoritas radioaktif. Einsteinium (Es) Wujudnya padat/gas dengan massa atom 252.000. Dia meleleh di 1133 K dan mendidih di 1269 K. Beberapa dibuat di lab. Powerhouse yang harus ditangani hati-hati bray!",
     "melt": 1133,
     "boil": 1269,
     "shells": [
@@ -1976,7 +1976,7 @@ export const elements = [
     "name": "Fermium",
     "atomic_mass": 257,
     "category": "actinide",
-    "summary": "Ini Fermium (Fm), salah satu anggota geng actinide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng unsur berat yang mayoritas radioaktif. Fermium (Fm) Wujudnya padat/gas dengan massa atom 257.000. Beberapa dibuat di lab. Powerhouse yang harus ditangani hati-hati bray!",
     "melt": 1800,
     "boil": null,
     "shells": [
@@ -1998,7 +1998,7 @@ export const elements = [
     "name": "Mendelevium",
     "atomic_mass": 258,
     "category": "actinide",
-    "summary": "Ini Mendelevium (Md), salah satu anggota geng actinide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng unsur berat yang mayoritas radioaktif. Mendelevium (Md) Wujudnya padat/gas dengan massa atom 258.000. Beberapa dibuat di lab. Powerhouse yang harus ditangani hati-hati bray!",
     "melt": 1100,
     "boil": null,
     "shells": [
@@ -2020,7 +2020,7 @@ export const elements = [
     "name": "Nobelium",
     "atomic_mass": 259,
     "category": "actinide",
-    "summary": "Ini Nobelium (No), salah satu anggota geng actinide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng unsur berat yang mayoritas radioaktif. Nobelium (No) Wujudnya padat/gas dengan massa atom 259.000. Beberapa dibuat di lab. Powerhouse yang harus ditangani hati-hati bray!",
     "melt": 1100,
     "boil": null,
     "shells": [
@@ -2042,7 +2042,7 @@ export const elements = [
     "name": "Lawrencium",
     "atomic_mass": 266,
     "category": "actinide",
-    "summary": "Ini Lawrencium (Lr), salah satu anggota geng actinide. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Geng unsur berat yang mayoritas radioaktif. Lawrencium (Lr) Wujudnya padat/gas dengan massa atom 266.000. Beberapa dibuat di lab. Powerhouse yang harus ditangani hati-hati bray!",
     "melt": 1900,
     "boil": null,
     "shells": [
@@ -2064,7 +2064,7 @@ export const elements = [
     "name": "Rutherfordium",
     "atomic_mass": 267,
     "category": "transition metal",
-    "summary": "Ini Rutherfordium (Rf), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Rutherfordium (Rf) Wujudnya padat/gas dengan massa atom 267.000. Dia meleleh di 2400 K dan mendidih di 5800 K. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 2400,
     "boil": 5800,
     "shells": [
@@ -2086,7 +2086,7 @@ export const elements = [
     "name": "Dubnium",
     "atomic_mass": 268,
     "category": "transition metal",
-    "summary": "Ini Dubnium (Db), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Dubnium (Db) Wujudnya padat/gas dengan massa atom 268.000. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": null,
     "boil": null,
     "shells": [
@@ -2108,7 +2108,7 @@ export const elements = [
     "name": "Seaborgium",
     "atomic_mass": 269,
     "category": "transition metal",
-    "summary": "Ini Seaborgium (Sg), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Seaborgium (Sg) Wujudnya padat/gas dengan massa atom 269.000. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": null,
     "boil": null,
     "shells": [
@@ -2130,7 +2130,7 @@ export const elements = [
     "name": "Bohrium",
     "atomic_mass": 270,
     "category": "transition metal",
-    "summary": "Ini Bohrium (Bh), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Bohrium (Bh) Wujudnya padat/gas dengan massa atom 270.000. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": null,
     "boil": null,
     "shells": [
@@ -2152,7 +2152,7 @@ export const elements = [
     "name": "Hassium",
     "atomic_mass": 269,
     "category": "transition metal",
-    "summary": "Ini Hassium (Hs), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Hassium (Hs) Wujudnya padat/gas dengan massa atom 269.000. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": 126,
     "boil": null,
     "shells": [
@@ -2174,7 +2174,7 @@ export const elements = [
     "name": "Meitnerium",
     "atomic_mass": 278,
     "category": "unknown, probably transition metal",
-    "summary": "Ini Meitnerium (Mt), salah satu anggota geng unknown, probably transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Meitnerium (Mt), anggota geng unknown, probably transition metal. Wujudnya padat/gas dengan massa atom 278.000. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": null,
     "boil": null,
     "shells": [
@@ -2196,7 +2196,7 @@ export const elements = [
     "name": "Darmstadtium",
     "atomic_mass": 281,
     "category": "unknown, probably transition metal",
-    "summary": "Ini Darmstadtium (Ds), salah satu anggota geng unknown, probably transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Darmstadtium (Ds), anggota geng unknown, probably transition metal. Wujudnya padat/gas dengan massa atom 281.000. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": null,
     "boil": null,
     "shells": [
@@ -2218,7 +2218,7 @@ export const elements = [
     "name": "Roentgenium",
     "atomic_mass": 282,
     "category": "unknown, probably transition metal",
-    "summary": "Ini Roentgenium (Rg), salah satu anggota geng unknown, probably transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Roentgenium (Rg), anggota geng unknown, probably transition metal. Wujudnya padat/gas dengan massa atom 282.000. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": null,
     "boil": null,
     "shells": [
@@ -2240,7 +2240,7 @@ export const elements = [
     "name": "Copernicium",
     "atomic_mass": 285,
     "category": "transition metal",
-    "summary": "Ini Copernicium (Cn), salah satu anggota geng transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Logam transisi yang tangguh dan bener-bener tulang punggung industri. Copernicium (Cn) Wujudnya padat/gas dengan massa atom 285.000. Dia kuat, shiny, dan tahan banting. Bener-bener 'high-value' metal!",
     "melt": null,
     "boil": 3570,
     "shells": [
@@ -2262,7 +2262,7 @@ export const elements = [
     "name": "Nihonium",
     "atomic_mass": 286,
     "category": "unknown, probably transition metal",
-    "summary": "Ini Nihonium (Nh), salah satu anggota geng unknown, probably transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Nihonium (Nh), anggota geng unknown, probably transition metal. Wujudnya padat/gas dengan massa atom 286.000. Dia meleleh di 700 K dan mendidih di 1430 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 700,
     "boil": 1430,
     "shells": [
@@ -2284,7 +2284,7 @@ export const elements = [
     "name": "Flerovium",
     "atomic_mass": 289,
     "category": "post-transition metal",
-    "summary": "Ini Flerovium (Fl), salah satu anggota geng post-transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Flerovium (Fl), anggota geng post-transition metal. Wujudnya padat/gas dengan massa atom 289.000. Dia meleleh di 340 K dan mendidih di 420 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 340,
     "boil": 420,
     "shells": [
@@ -2306,7 +2306,7 @@ export const elements = [
     "name": "Moscovium",
     "atomic_mass": 289,
     "category": "unknown, probably post-transition metal",
-    "summary": "Ini Moscovium (Mc), salah satu anggota geng unknown, probably post-transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Moscovium (Mc), anggota geng unknown, probably post-transition metal. Wujudnya padat/gas dengan massa atom 289.000. Dia meleleh di 670 K dan mendidih di 1400 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 670,
     "boil": 1400,
     "shells": [
@@ -2328,7 +2328,7 @@ export const elements = [
     "name": "Livermorium",
     "atomic_mass": 293,
     "category": "unknown, probably post-transition metal",
-    "summary": "Ini Livermorium (Lv), salah satu anggota geng unknown, probably post-transition metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Livermorium (Lv), anggota geng unknown, probably post-transition metal. Wujudnya padat/gas dengan massa atom 293.000. Dia meleleh di 709 K dan mendidih di 1085 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 709,
     "boil": 1085,
     "shells": [
@@ -2350,7 +2350,7 @@ export const elements = [
     "name": "Tennessine",
     "atomic_mass": 294,
     "category": "unknown, probably metalloid",
-    "summary": "Ini Tennessine (Ts), salah satu anggota geng unknown, probably metalloid. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Tennessine (Ts), anggota geng unknown, probably metalloid. Wujudnya padat/gas dengan massa atom 294.000. Dia meleleh di 723 K dan mendidih di 883 K. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": 723,
     "boil": 883,
     "shells": [
@@ -2372,7 +2372,7 @@ export const elements = [
     "name": "Oganesson",
     "atomic_mass": 294,
     "category": "unknown, predicted to be noble gas",
-    "summary": "Ini Oganesson (Og), salah satu anggota geng unknown, predicted to be noble gas. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Oganesson (Og), anggota geng unknown, predicted to be noble gas. Wujudnya padat/gas dengan massa atom 294.000. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": null,
     "boil": 350,
     "shells": [
@@ -2394,7 +2394,7 @@ export const elements = [
     "name": "Ununennium",
     "atomic_mass": 315,
     "category": "unknown, but predicted to be an alkali metal",
-    "summary": "Ini Ununennium (Uue), salah satu anggota geng unknown, but predicted to be an alkali metal. Sifatnya unik dan punya peran penting di semesta. Bener-bener worth it buat dipelajari biar lo makin pinter!",
+    "summary": "Kenalin nih Ununennium (Uue), anggota geng unknown, but predicted to be an alkali metal. Wujudnya padat/gas dengan massa atom 315.000. Punya karakteristik unik yang ngebantu banget di dunia sains. Worth it buat dipelajari!",
     "melt": null,
     "boil": 630,
     "shells": [
